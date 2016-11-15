@@ -3,7 +3,7 @@ Unity editor extension for taking screenshot at editor.
 ![how-to-use](https://raw.githubusercontent.com/sanukin39/UniEditorScreenshot/master/pic/sample.png)
 
 ## Installation
-Take unitypackage under the distribution folder.
+Take unitypackage under the unitypackage folder.
 
 ## Usage
 1. Select [Window] -> [Capture Editor] to open editor window.

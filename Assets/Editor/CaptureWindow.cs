@@ -38,7 +38,7 @@ public class CaptureWindow : EditorWindow{
 
         if (GUILayout.Button("Take screenshot")) {
             var outputPath = saveDirPath + "/" + DateTime.Now.ToString ("yyyyMMddHHmmss") + ".png";
-            Application.CaptureScreenshot (outputPath);
+            ScreenCapture.CaptureScreenshot (outputPath);
             Debug.Log ("Export scrennshot at " + outputPath);
         }
     }
